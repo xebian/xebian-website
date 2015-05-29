@@ -17,6 +17,6 @@
 
 === i386/32bit ===
 
-* link:/download/live-image-i386.hybrid.iso[Direct download]
-* link:/download/live-image-i386.hybrid.iso.zsync[zsync meta file]
-* link:/download/live-image-i386.hybrid.iso.zsync.md5sum[MD5SUM]
+* link:/download/xebian-stretch-i386.hybrid.iso[Direct download]
+* link:/download/xebian-stretch-i386.hybrid.iso.zsync[zsync meta file]
+* link:/download/xebian-stretch-i386.hybrid.iso.md5sum[MD5SUM]
