@@ -1,0 +1,22 @@
+////
+.. title: Download
+.. slug: download
+.. type: text
+.. hidetitle: True
+////
+
+== Jessie based ==
+
+=== amd64/64bit ===
+
+* link:/download/live-image-amd64.hybrid.iso[Direct download]
+* link:/download/live-image-amd64.hybrid.iso.zsync[zsync meta file]
+* link:/download/live-image-amd64.hybrid.iso.zsync.md5sum[MD5SUM]
+
+== Stretch based ==
+
+=== i386/32bit ===
+
+* link:/download/live-image-i386.hybrid.iso[Direct download]
+* link:/download/live-image-i386.hybrid.iso.zsync[zsync meta file]
+* link:/download/live-image-i386.hybrid.iso.zsync.md5sum[MD5SUM]

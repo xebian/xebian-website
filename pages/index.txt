@@ -1,0 +1,21 @@
+////
+.. title: Welcome
+.. type: text
+.. hidetitle: True
+////
+
+== Welcome to Xebian! ==
+The goal of this project is to make an Xfce Debian based system that is much like Xubuntu.
+
+=== Known issues ===
+
+ * Should be a few, this is a work in progress.
+ * link:https://bugs.debian.org/787144[vesa int10 failure], xorg will fail to start with vesa.
+
+=== Features ===
+
+To be filled in.
+
+=== Contact ===
+
+#xebian on the link://freenode.net/[Freenode] IRC network
