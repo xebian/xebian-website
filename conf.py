@@ -111,6 +111,7 @@ NAVIGATION_LINKS = {
         ("/", "Home"),
         ("/galleries/screenshots/", "Screenshots"),
         ("/download/", "Download"),
+        ("https://bitbucket.org/xebian/", "Code"),
 #        ("/rss.xml", "RSS feed"),
     ),
 }
