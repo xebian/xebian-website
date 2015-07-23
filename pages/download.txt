@@ -1,6 +1,5 @@
 ////
 .. title: Download
-.. slug: download
 .. type: text
 .. hidetitle: True
 ////
@@ -8,38 +7,41 @@
 [[jessie]]
 == Jessie based ==
 
-[width="100%",cols="asciidoc,asciidoc",frame="none"]
-|========
-|
-amd64/64bit
-~~~~~~~~~~
-
+.amd64/64bit
+[role="floatbox floatbox-left"]
+--
 * link:/download/live-image-amd64.hybrid.iso[Direct download]
 * link:/download/live-image-amd64.hybrid.iso.zsync[zsync meta file]
 * link:/download/live-image-amd64.hybrid.iso.zsync.md5sum[MD5SUM]
-|
-i386/32bit
-~~~~~~~~~
+--
 
+.i386/32bit
+[role="floatbox floatbox-right"]
+--
 No downloads available yet.
-|========
+--
 
+[role="clear"]
+--
+--
 
 [[stretch]]
 == Stretch based ==
 
-[width="100%",cols="asciidoc,asciidoc",frame="none"]
-|========
-|
-amd64/64bit
-~~~~~~~~~~
-
+.amd64/64bit
+[role="floatbox floatbox-left"]
+--
 No downloads available yet.
-|
-i386/32bit
-~~~~~~~~
+--
 
+.i386/32bit
+[role="floatbox floatbox-right"]
+--
 * link:/download/xebian-stretch-i386.hybrid.iso[Direct download]
 * link:/download/xebian-stretch-i386.hybrid.iso.zsync[zsync meta file]
 * link:/download/xebian-stretch-i386.hybrid.iso.md5sum[MD5SUM]
-|========
+--
+
+[role="clear"]
+--
+--

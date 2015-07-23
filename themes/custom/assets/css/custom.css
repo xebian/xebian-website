@@ -42,6 +42,59 @@ code, pre {
     display: block;
 }
 
+.floatbox {
+    float: left;
+}
+
+.floatbox-left {
+    margin-right: 18%;
+}
+
+.clear {
+    clear: both;
+}
+
+/* h1, h2, h3, h4, h5, h6 */
+.floatbox .title {
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: normal;
+    line-height: 20px;
+    color: #ffffff;
+    text-rendering: optimizelegibility;
+}
+
+/* h1, h2, h3 */
+.entry-content > .floatbox .title,
+.sectionbody > .floatbox .title {
+    margin-top: -40px;
+    padding-top: 60px;
+    line-height: 40px;
+}
+
+/* h4, h5, h6 */
+.sect2 > .floatbox .title,
+.sect3 > .floatbox .title,
+.sect4 > .floatbox .title {
+    margin-top: -50px;
+    padding-top: 60px;
+}
+
+/* h2 */
+.entry-content > .floatbox .title {
+    font-size: 31.5px;
+}
+
+/* h3 */
+.sectionbody > .floatbox .title {
+    font-size: 24.5px;
+}
+
+/* h4 */
+.sect2 > .floatbox .title {
+    font-size: 17.5px;
+}
+
 @media (max-width: 979px) {
     .navbar .nav > li > .dropdown-menu:before,
     .navbar .nav > li > .dropdown-menu:after {
