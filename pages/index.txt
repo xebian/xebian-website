@@ -10,7 +10,6 @@ The goal of this project is to make an Xfce Debian based system that is much lik
 === Known issues ===
 
  * Should be a few, this is a work in progress.
- * link:https://bugs.debian.org/787144[vesa int10 failure], xorg will fail to start with vesa.
 
 === Features ===
 
