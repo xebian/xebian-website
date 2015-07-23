@@ -102,6 +102,15 @@ code, pre {
     }
 }
 
+@media (min-width: 980px) {
+    .navbar .container {
+	width: 95%;
+    }
+    .navbar .brand {
+	margin-left: 0;
+    }
+}
+
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,
 .dropdown-submenu:hover > a,
