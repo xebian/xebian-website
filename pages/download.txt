@@ -5,18 +5,41 @@
 .. hidetitle: True
 ////
 
+[[jessie]]
 == Jessie based ==
 
-=== amd64/64bit ===
+[width="100%",cols="asciidoc,asciidoc",frame="none"]
+|========
+|
+amd64/64bit
+~~~~~~~~~~
 
 * link:/download/live-image-amd64.hybrid.iso[Direct download]
 * link:/download/live-image-amd64.hybrid.iso.zsync[zsync meta file]
 * link:/download/live-image-amd64.hybrid.iso.zsync.md5sum[MD5SUM]
+|
+i386/32bit
+~~~~~~~~~
 
+No downloads available yet.
+|========
+
+
+[[stretch]]
 == Stretch based ==
 
-=== i386/32bit ===
+[width="100%",cols="asciidoc,asciidoc",frame="none"]
+|========
+|
+amd64/64bit
+~~~~~~~~~~
+
+No downloads available yet.
+|
+i386/32bit
+~~~~~~~~
 
 * link:/download/xebian-stretch-i386.hybrid.iso[Direct download]
 * link:/download/xebian-stretch-i386.hybrid.iso.zsync[zsync meta file]
 * link:/download/xebian-stretch-i386.hybrid.iso.md5sum[MD5SUM]
+|========
