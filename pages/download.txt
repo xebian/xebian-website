@@ -31,7 +31,9 @@ No downloads available yet.
 .amd64/64bit
 [role="floatbox floatbox-left"]
 --
-No downloads available yet.
+* link:/download/xebian-stretch-amd64.hybrid.iso[Direct download]
+* link:/download/xebian-stretch-amd64.hybrid.iso.zsync[zsync meta file]
+* link:/download/xebian-stretch-amd64.hybrid.iso.md5sum[MD5SUM]
 --
 
 .i386/32bit
