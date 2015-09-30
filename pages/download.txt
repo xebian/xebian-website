@@ -12,7 +12,7 @@
 --
 * link:/download/live-image-amd64.hybrid.iso[Direct download]
 * link:/download/live-image-amd64.hybrid.iso.zsync[zsync meta file]
-* link:/download/live-image-amd64.hybrid.iso.zsync.md5sum[MD5SUM]
+* link:/download/live-image-amd64.hybrid.iso.md5sum[MD5SUM]
 --
 
 .i386/32bit
