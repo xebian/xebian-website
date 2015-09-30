@@ -7,13 +7,12 @@
 == Welcome to Xebian! ==
 The goal of this project is to make an Xfce Debian based system that is much like Xubuntu.
 
-=== Known issues ===
-
- * Should be a few, this is a work in progress.
-
 === Features ===
 
-To be filled in.
+ * Based on link://debian.org/[Debian] with both Jessie and Stretch versions.
+ * Xfce 4.12 for Debian Stretch, and Xfce 4.10 for Jessie.
+ * Modified default configuration to give you the best desktop experience without losing the classic look and feel.
+ * Numix GTK+ theme by default, and other link:http://shimmerproject.org/[Shimmer Project] themes pre-installed.
 
 === Contact ===
 
