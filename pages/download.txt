@@ -4,27 +4,6 @@
 .. hidetitle: True
 ////
 
-[[jessie]]
-== Jessie based ==
-
-.amd64/64bit
-[role="floatbox floatbox-left"]
---
-* link:/download/live-image-amd64.hybrid.iso[Direct download]
-* link:/download/live-image-amd64.hybrid.iso.zsync[zsync meta file]
-* link:/download/live-image-amd64.hybrid.iso.md5sum[MD5SUM]
---
-
-.i386/32bit
-[role="floatbox floatbox-right"]
---
-No downloads available yet.
---
-
-[role="clear"]
---
---
-
 [[sid]]
 == Sid based ==
 
@@ -42,6 +21,28 @@ No downloads available yet.
 * link:/download/xebian-sid-i386.hybrid.iso[Direct download]
 * link:/download/xebian-sid-i386.hybrid.iso.zsync[zsync meta file]
 * link:/download/xebian-sid-i386.hybrid.iso.md5sum[MD5SUM]
+--
+
+[role="clear"]
+--
+--
+
+
+[[jessie]]
+== Jessie based ==
+
+.amd64/64bit
+[role="floatbox floatbox-left"]
+--
+* link:/download/live-image-amd64.hybrid.iso[Direct download]
+* link:/download/live-image-amd64.hybrid.iso.zsync[zsync meta file]
+* link:/download/live-image-amd64.hybrid.iso.md5sum[MD5SUM]
+--
+
+.i386/32bit
+[role="floatbox floatbox-right"]
+--
+No downloads available yet.
 --
 
 [role="clear"]
