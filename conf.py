@@ -17,15 +17,15 @@ import time
 
 
 # Data about this site
-BLOG_AUTHOR = "Unit 193"  # (translatable)
+BLOG_AUTHOR = "The Xebian Team"  # (translatable)
 BLOG_TITLE = "Xebian &#8211; a Debian based distro"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://xebian.org/"
+SITE_URL = "https://xebian.org/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://unit193.net/icebox/"
-BLOG_EMAIL = "unit193@ubuntu.com"
+# BASE_URL = "https://xebian.org/"
+BLOG_EMAIL = "unit193@xebian.org"
 BLOG_DESCRIPTION = "Xebian &#8211; Xubuntu built on Debian"  # (translatable)
 
 # Nikola is multilingual!
@@ -111,7 +111,7 @@ NAVIGATION_LINKS = {
         ("/", "Home"),
         ("/galleries/screenshots/", "Screenshots"),
         ("/download/", "Download"),
-        ("https://bitbucket.org/xebian/", "Code"),
+        ("https://github.com/xebian/", "Code"),
 #        ("/rss.xml", "RSS feed"),
     ),
 }
@@ -181,6 +181,7 @@ POSTS = ( )
 #    ("posts/*.txt", "posts", "post.tmpl"),
 #)
 PAGES = (
+    ("pages/*.adoc", "", "story.tmpl"),
     ("pages/*.rst", "", "story.tmpl"),
     ("pages/*.txt", "", "story.tmpl"),
 )
@@ -199,7 +200,7 @@ PAGES = (
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
 COMPILERS = {
-    "asciidoc": ('.asciidoc', '.txt'),
+    "asciidoc": ('.adoc', '.asciidoc', '.txt'),
     "rest": ('.rst',),
     "markdown": ('.md', '.mdown', '.markdown'),
     "textile": ('.textile',),
@@ -597,6 +598,7 @@ PRETTY_URLS = True
 # long time). Insert anything you want here, or even make it empty.
 # (translatable)
 SOCIAL_BUTTONS_CODE = ""
+# SOCIAL_BUTTONS_CODE = """
 # <!-- Social buttons -->
 # <div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
 # <a class="addthis_button_more">Share</a>
@@ -623,7 +625,7 @@ COPY_SOURCES = False
 
 # By default, Nikola generates RSS files for the website and for tags, and
 # links to it.  Set this to False to disable everything RSS-related.
-# GENERATE_RSS = True
+GENERATE_RSS = False
 
 # RSS_LINK is a HTML fragment to link the RSS or Atom feeds. If set to None,
 # the base.tmpl will use the feed Nikola generates. However, you may want to
