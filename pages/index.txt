@@ -10,10 +10,10 @@ The goal of this project is to make an Xfce Debian based system that is much lik
 === Features ===
 
  * Based on link://debian.org/[Debian] Unstable/sid.
- * With Xfce 4.12.
+ * Uses Xfce as the desktop environment.
  * Modified default configuration to give you the best desktop experience without losing the classic look and feel.
  * Numix GTK+ theme by default, and other link:http://shimmerproject.org/[Shimmer Project] themes pre-installed.
 
 === Contact ===
 
-#xebian on the link://freenode.net/[Freenode] IRC network
+#xebian on the link://freenode.net/[freenode] IRC network
