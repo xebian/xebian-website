@@ -4,23 +4,25 @@
 .. hidetitle: True
 ////
 
-[[sid]]
-== Sid based ==
+[[unstable]]
+== Unstable/Sid based ==
 
 .amd64/64bit
 [role="floatbox floatbox-left"]
 --
-* link:/download/xebian-sid-amd64.hybrid.iso[Direct download]
-* link:/download/xebian-sid-amd64.hybrid.iso.zsync[zsync meta file]
-* link:/download/xebian-sid-amd64.hybrid.iso.md5sum[MD5SUM]
+* link:/download/xebian-unstable-amd64.hybrid.iso[Direct download]
+* link:/download/xebian-unstable-amd64.hybrid.iso.zsync[Zsync meta file]
+* link:/download/xebian-unstable-amd64.hybrid.iso.md5sum[MD5SUM], link:/download/xebian-unstable-amd64.hybrid.iso.sha256[SHA256]
+* link:/download/xebian-unstable-amd64.packages[Manifest]
 --
 
 .i386/32bit
 [role="floatbox floatbox-right"]
 --
-* link:/download/xebian-sid-i386.hybrid.iso[Direct download]
-* link:/download/xebian-sid-i386.hybrid.iso.zsync[zsync meta file]
-* link:/download/xebian-sid-i386.hybrid.iso.md5sum[MD5SUM]
+* link:/download/xebian-unstable-i386.hybrid.iso[Direct download]
+* link:/download/xebian-unstable-i386.hybrid.iso.zsync[Zsync meta file]
+* link:/download/xebian-unstable-i386.hybrid.iso.md5sum[MD5SUM], link:/download/xebian-unstable-i386.hybrid.iso.sha256[SHA256]
+* link:/download/xebian-unstable-i386.packages[Manifest]
 --
 
 [role="clear"]
