@@ -2,3 +2,4 @@ output/
 cache/
 *.pyc
 .doit.db
+state_data.json
