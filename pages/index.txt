@@ -1,5 +1,5 @@
 ////
-.. title: Welcome
+.. title: Xebian &#8211; a Debian based distro
 .. type: text
 .. hidetitle: True
 ////
