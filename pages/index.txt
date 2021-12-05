@@ -16,4 +16,4 @@ The goal of this project is to make an Xfce Debian based system that is much lik
 
 === Contact ===
 
-#xebian on the link://freenode.net/[freenode] IRC network
+#xebian on the link://libera.chat[Libera] IRC network.
