@@ -142,7 +142,6 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
         ("/galleries/screenshots/", "Screenshots"),
-        ("/download/", "Download"),
         ("https://github.com/xebian/", "Code"),
 #        ("/rss.xml", "RSS feed"),
     ),

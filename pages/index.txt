@@ -32,6 +32,35 @@ the Debian Live team in switching to Calamares.
 link:https://live-team.pages.debian.net/live-manual/html/live-manual/customizing-run-time-behaviours.en.html[live-build]
 sets the username and password, at the time of this writing the username is 'user' and password is 'live'.
 
+[[download]]
+=== Download ===
+
+include::currentversion.import[]
+
+.amd64/64bit
+[role="floatbox floatbox-left"]
+--
+* link:/download/xebian-unstable-amd64.hybrid.iso[Direct download]
+* link:/download/xebian-unstable-amd64.hybrid.iso.zsync[Zsync meta file]
+* link:/download/xebian-unstable-amd64.packages[Manifest]
+--
+
+.checksums
+[role="floatbox floatbox-right"]
+--
+* link:/download/xebian-unstable-amd64.hybrid.iso.md5sum[MD5SUM]
+* link:/download/xebian-unstable-amd64.hybrid.iso.sha256[SHA256]
+--
+
+[role="clear"]
+--
+--
+
+==== Development builds ====
+
+You may also find development builds in the link:/download/pending/[staging] area.
+These builds should not be considered production ready nor utilized to install a production system.
+
 === Contact ===
 
 #xebian on the link://libera.chat[Libera] IRC network.
