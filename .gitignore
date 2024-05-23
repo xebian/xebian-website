@@ -3,3 +3,4 @@ cache/
 *.pyc
 .doit.db
 state_data.json
+*bootstrap*.css

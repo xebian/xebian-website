@@ -17,7 +17,7 @@ import time
 
 # Data about this site
 BLOG_AUTHOR = "The Xebian Team"  # (translatable)
-BLOG_TITLE = "Xebian &#8211; a Debian based distro"  # (translatable)
+BLOG_TITLE = "Xebian - a Debian blend"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
 SITE_URL = "https://xebian.org/"
@@ -25,7 +25,7 @@ SITE_URL = "https://xebian.org/"
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://xebian.org/"
 BLOG_EMAIL = "unit193@xebian.org"
-BLOG_DESCRIPTION = "Xebian &#8211; Xubuntu built on Debian"  # (translatable)
+BLOG_DESCRIPTION = "Xebian - Xubuntu built on Debian"  # (translatable)
 
 # Nikola is multilingual!
 #
