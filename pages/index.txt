@@ -9,10 +9,28 @@ The goal of this project is to make an Xfce Debian based system that is much lik
 
 === Features ===
 
- * Based on link://debian.org/[Debian] Unstable/sid.
+ * Based on link://debian.org/[Debian] Unstable/sid. (link:https://www.debian.org/doc/manuals/debian-faq/choosing.en.html[Is Unstable right for me?])
  * Uses Xfce as the desktop environment.
- * Modified default configuration to give you the best desktop experience without losing the classic look and feel.
- * Numix GTK+ theme by default, and other link:http://shimmerproject.org/[Shimmer Project] themes pre-installed.
+ * Modified default configuration, inspired by Xubuntu, to give you a traditional desktop look and feel.
+ * With Greybird and Elementary Xfce icon theme from the link:http://shimmerproject.org/[Shimmer Project] for Xfce integration.
+
+=== FAQ ===
+
+*Q: Is this a derivative of Debian?*
+
+Xebian most closely resembles a link:https://wiki.debian.org/DebianPureBlends[Debian blend], with only
+a thin layer for artwork and configuration that differs from Debian.  No Xfce components "jump ahead"
+in Xebian and all packaging work is done as part of the Xfce team.
+
+*Q: What installer is used within Xebian?  Does it have a live desktop?*
+
+Xebian comes as a live image, and while initially Xebian used debian-installer we've decided to follow
+the Debian Live team in switching to Calamares.
+
+*Q: I've locked myself out of the live session, what's the default password?*
+
+link:https://live-team.pages.debian.net/live-manual/html/live-manual/customizing-run-time-behaviours.en.html[live-build]
+sets the username and password, at the time of this writing the username is 'user' and password is 'live'.
 
 === Contact ===
 
