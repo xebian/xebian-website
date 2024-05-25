@@ -2,40 +2,53 @@
  * Custom CSS for Xebian
  */
 
-.breadcrumbs + h1 {
-    font-size: 31.5px;
+body {
+    background-image: linear-gradient(rgb(5, 5, 5), rgb(30, 34, 38));
+    min-height: 100vh;
+    font-size: 1rem;
 }
 
-.breadcrumb {
-    margin: 20px 0;
-}
-
-img {
-    width: auto;
-    max-width: none;
+.navbar.bg-dark {
+    border-left: 0 none;
+    border-right: 0 none;
+    border-top: 0 none;
+    border-color: #777;
 }
 
 img#logo {
     height: 50px;
 }
 
-.footerbox {
-    margin: 15px 0;
+ul.navbar-nav {
+    margin-top: 11px;
 }
 
-code, pre {
-    color: inherit;
-    background-color: inherit;
+#footer {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+    border-color: #777;
+    text-align: center;
 }
 
-.navbar .nav ul.dropdown-menu {
-    margin-top: 0;
+.h1, .h2, .h3, .h4, .h5, .h6,
+h1, h2, h3, h4, h5, h6 {
+    color: #dcdcdc;
 }
 
-.navbar .nav li.dropdown:hover ul.dropdown-menu,
-.navbar .nav li.dropdown:active ul.dropdown-menu,
-.navbar .nav li.dropdown:focus ul.dropdown-menu {
-    display: block;
+.h1, h1 { font-size: 3.75rem; }
+.h2, h2 { font-size: 2.75rem; }
+.h3, h3 { font-size: 2.25rem; }
+.h4, h4 { font-size: 1.75rem; }
+.h5, h5 { font-size: 1.5rem; }
+.h6, h6 { font-size: 1rem; }
+
+.breadcrumbs + h1,
+h1.p-name.entry-title {
+    font-size: 2.75rem;
+}
+
+.breadcrumb {
+    background-color: #181818;
 }
 
 .floatbox {
@@ -50,98 +63,22 @@ code, pre {
     clear: both;
 }
 
-/* h1, h2, h3, h4, h5, h6 */
 .floatbox .title {
-    margin: 10px 0;
-    font-family: inherit;
-    font-weight: normal;
-    line-height: 20px;
-    color: #ffffff;
-    text-rendering: optimizelegibility;
-}
-
-/* h1, h2, h3 */
-.entry-content > .floatbox .title,
-.sectionbody > .floatbox .title {
-    margin-top: -40px;
-    padding-top: 60px;
-    line-height: 40px;
-}
-
-/* h4, h5, h6 */
-.sect2 > .floatbox .title,
-.sect3 > .floatbox .title,
-.sect4 > .floatbox .title {
-    margin-top: -50px;
-    padding-top: 60px;
+    margin-bottom: .75rem;
+    color: #dcdcdc;
 }
 
 /* h2 */
 .entry-content > .floatbox .title {
-    font-size: 31.5px;
+    font-size: 2.75rem;
 }
 
 /* h3 */
 .sectionbody > .floatbox .title {
-    font-size: 24.5px;
+    font-size: 2.25rem;
 }
 
 /* h4 */
 .sect2 > .floatbox .title {
-    font-size: 17.5px;
-}
-
-@media (max-width: 979px) {
-    .navbar .nav > li > .dropdown-menu:before,
-    .navbar .nav > li > .dropdown-menu:after {
-	display: none;
-    }
-}
-
-@media (min-width: 980px) {
-    .navbar .container {
-	width: 95%;
-    }
-    .navbar .brand {
-	margin-left: 0;
-    }
-}
-
-.dropdown-menu > li > a:hover,
-.dropdown-menu > li > a:focus,
-.dropdown-submenu:hover > a,
-.dropdown-submenu:focus > a {
-    background-color: #33b5e5;
-    background-image: -moz-linear-gradient(top, #33b5e5, #020202);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33b5e5), to(#020202));
-    background-image: -webkit-linear-gradient(top, #33b5e5, #020202);
-    background-image: -o-linear-gradient(top, #33b5e5, #020202);
-    background-image: linear-gradient(to bottom, #33b5e5, #020202);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff33b5e5', endColorstr='#ff020202', GradientType=0);
-}
-
-.dropdown-menu > .active > a,
-.dropdown-menu > .active > a:hover,
-.dropdown-menu > .active > a:focus {
-    background-color: #33b5e5;
-    background-image: -moz-linear-gradient(top, #33b5e5, #020202);
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33b5e5), to(#020202));
-    background-image: -webkit-linear-gradient(top, #33b5e5, #020202);
-    background-image: -o-linear-gradient(top, #33b5e5, #020202);
-    background-image: linear-gradient(to bottom, #33b5e5, #020202);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff33b5e5', endColorstr='#ff020202', GradientType=0);
-}
-
-@media (max-width: 979px) {
-    .navbar .nav-collapse .nav li > a:hover,
-    .navbar .nav-collapse .nav .active > a,
-    .navbar .nav-collapse .dropdown-menu a:hover {
-	background-color: #33b5e5;
-	background-image: -moz-linear-gradient(top, #33b5e5, #020202);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#33b5e5), to(#020202));
-	background-image: -webkit-linear-gradient(top, #33b5e5, #020202);
-	background-image: -o-linear-gradient(top, #33b5e5, #020202);
-	background-image: linear-gradient(to bottom, #33b5e5, #020202);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff33b5e5', endColorstr='#ff020202', GradientType=0);
-    }
+    font-size: 1.75rem;
 }
